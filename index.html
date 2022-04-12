@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Travel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="homePage" id="homePage">
+        <nav>
+            <div class="leftNav">
+                <div class="logoContainer">
+                    <img src="../starter-code/assets/shared/logo.svg" alt="">
+                </div>
+                <hr class="homepage-hr">
+            </div>
+            <div class="rightNav">
+                <ul class="navlist">
+                    <li><a href="#homePage"><span>00 </span> HOME</a></li>
+                    <li><a href="#destinationPage"><span>01 </span> DESTINATION</a></li>
+                    <li><a href="#crewPage"><span>02 </span> CREW</a></li>
+                    <li><a href="#technologyPage"><span>03 </span> TECHNOLOGY</a></li>
+                </ul>
+            </div>
+            <div class="menu">
+                <img src="./starter-code/assets/shared/icon-hamburger.svg" class="hamburger">
+            </div>
+        </nav>
+
+        <main>
+            <div class="leftMain">
+                <h3>SO, YOU WANT TO TRAVEL TO</h3>
+                <h1>SPACE</h1>
+                <p>Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!</p>
+            </div>
+            <div class="rightMain">
+                <h1>EXPLORE</h1>
+            </div>
+        </main>
+    </section>
+
+    
+
+    <section class="destinationPage" id="destinationPage">
+        <div class="headline">
+            <h2><span>01</span>PICK YOUR DESTINATION</h2>
+        </div>
+        <main>
+            <div class="leftMain">
+                <img id="destination-img" src="./starter-code/assets/destination/image-moon.png" alt="">
+            </div>
+            <div class="rightMain">
+                <div class="main-content">
+                    <ul class="destinationLinks">
+                        <li id="moon-tag">MOON</li>
+                        <li id="mars-tag">MARS</li>
+                        <li id="europa-tag">EUROPA</li>
+                        <li id="titan-tag">TITAN</li>
+                    </ul>
+                    <h1 id="destinationHead">MOON</h1>
+                    <p id="destinationParagraph">See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+    
+                    <hr>
+    
+                    <div class="details">
+                        <div class="distance">
+                            <p>AVG. DISTANCE</p>
+                            <h5 class="distance-number" id="destinationDistance">384,400 KM</h5>
+                        </div>
+                        <div class="time">
+                            <p>EST. TRAVEL TIME</p>
+                            <h5 class="distance-number" id="destinationTime">3 Days</h5>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </main>
+    </section>
+
+
+    <section class="crewPage" id="crewPage">
+        <div class="headline" id="crew-headline">
+            <h2><span>02</span>MEET YOUR CREW</h2>
+        </div>
+       <main>
+            <div class="leftMain">
+                <main>
+                    <div class="mobile-second">
+                        <h2 id="crew-subhead">COMMANDER</h2>
+                        <h1 id="crew-head">DOUGLAS HURLEY</h1>
+                        <p id="crew-paragraph">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</p>
+                    </div>
+                    <div class="circle-navlinks">
+                        <div id="circle-one"></div>
+                        <div id="circle-two"></div>
+                        <div id="circle-three"></div>
+                        <div id="circle-four"></div>
+                    </div>
+                </main>
+            </div>
+            <div class="rightMain">
+                <img id="crew-img" src="./starter-code/assets/crew/image-douglas-hurley.png" alt="">
+            </div>
+       </main>
+    </section>
+
+
+    <section class="technologyPage" id="technologyPage">
+        <div class="headline">
+            <h2><span>03</span>SPACE LAUNCH 101</h2>
+        </div>
+        <main>
+            <div class="leftMain">
+                <div class="tech-nav">
+                    <div id="one" class="one">1</div>
+                    <div id="two" class="two">2</div>
+                    <div id="three" class="three">3</div>
+                </div>
+                <div class="main-text">
+                    <h2>THE TERMINOLOGY…</h2>
+                    <h1 id="technology-head">SPACEPORT</h1>
+                    <p id="technology-paragraph">A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.</p>
+                </div>
+            </div>
+
+            <div class="rightMain">
+                <img id="technology-img" src="./starter-code/assets/technology/image-spaceport-portrait.jpg" alt="">
+            </div>
+        </main>
+        
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
